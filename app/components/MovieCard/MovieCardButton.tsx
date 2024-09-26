@@ -8,4 +8,4 @@ const MovieCardButton = () => {
   )
 }
 
-export default MovieCardButton
+export default MovieCardButton 
