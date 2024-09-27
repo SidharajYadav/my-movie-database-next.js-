@@ -5,7 +5,7 @@ interface MovieDetailsPageProps {
         id: string;
     }
 }
-
+ 
 const getMovieDetails = async (id: string) => {
     const movieDetails = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${process.env.API_KEY}`);
     const movieDetailsJSON = await movieDetails.json();
